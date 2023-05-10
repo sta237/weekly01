@@ -1,0 +1,37 @@
+---
+title: "Weekly exercise 1"
+output: 
+  learnr::tutorial:
+    theme: "sandstone"
+    css: css/styles.css
+runtime: shiny_prerendered
+---
+
+
+```{r setup, include=FALSE}
+library("learnr")
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Question 5 a)
+
+Open the documentation for `sample()`.
+
+```{r function-doc, exercise=TRUE}
+
+```
+
+## Question 5 b)
+
+Complete the following script to  to simulate $N=1,000,000$ rounds of 4 card draws and estimate
+the probabilities of the specified events.
+
+```{r sim-cards, exercise=TRUE, exercise.lines=25}
+N <- 10^6 # 1,000,000 simulations
+sims <- matrix(sample(c(
+ # code the card values
+), 4 # complete this line
+sumA <- # store simulated sums for player A
+sumB <- # store simulated sums for player B
+# compute the probability estimates
+```
